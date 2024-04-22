@@ -1,6 +1,6 @@
 describe('Login Test', () => {
   it('should log in with different credentials', () => {
-    cy.visit('https://www.saucedemo.com'); // Assuming '/login' is the URL of your login page
+    cy.visit('/'); // Assuming '/login' is the URL of your login page
 
     // Read data from JSON file
     cy.fixture('credentials').then((credentials) => {
